@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: roboto;
+    margin: 0;
+}
+
+/*main start*/
+main {
+    margin: 0;
+    padding: 0 100px;
+}
+/*main ends*/
+
+/*header start*/
+#menu {
+    margin: 0;
+    padding: 0 100px;
+}
+
+#menu nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu .logo {
+    font-family: raleway;
+    font-size: 26px;
+    color: #2196F3;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #212121;
+}
+
+#menu a:not(:last-child) {
+    margin-right: 40px;
+}
+
+#menu a:hover {
+    color: #2196F3;
+}
+
+#menu .contacto {
+    display: flex;
+}
+
+#menu .contacto a {
+    color: #757575;
+}
+
+#menu .icon {
+    cursor: pointer;
+}
+
+#menu .icon:hover {
+    background: #2196F3;
+}
+
+#menu a:not(:first-child):hover {
+    color: #2196F3;
+    border-bottom: 2px solid #2196F3;
+}
+
+#menu .contacto .email:hover {
+    color: #2196F3;
+    border-bottom: none;
+}
+
+#menu .contacto .tel:hover {
+    color: #2196F3;
+    border-bottom: none;
+}
+
+#menu .contacto .email {
+    margin-right: 40px;
+}
+
+#menu .menu {
+    text-align: left;
+    font-weight: bolder;
+}
+
+#menu .contacto {
+    text-align: right;
+}
+
+/*header ends*/
+
+/*button starts*/
+
+#btn {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#btn .button {
+    color: #212121;
+    margin-right: 5px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn .button:hover {
+    background: #2196F3;
+    color: #fff;
+}
+/*button ends*/
+
+/*imagenes*/
+
+#imagenes {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#imagenes img {
+    width: 370px;
+    height: 294px;
+}
+
+#imagenes .productos {
+    display: inline-block;
+    width: 370px;
+    height: 404px;
+    margin-right: 0px;
+    margin-left: px;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
+
+#imagenes .productos h3, p {
+    text-align: center;
+}
+
+#imagenes .productos .content h3 {
+    font-size: 18px;
+    line-height: 36px;
+    font-family: roboto;
+    color: 212121;
+}
+
+#imagenes .productos .content p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 30px;
+}
+/*imagenes*/
+
+/*Footer*/
+
+#pie-pagina {
+    background-color: #2F303A;
+    margin-top: 30px;
+    height: 274px;
+}
+
+#pie-pagina .contenedor {
+    display: flex;
+}
+
+#pie-pagina .final {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+}
+
+#pie-pagina .contacto a {
+    text-decoration: none;
+    color: #757575;
+}
+
+#pie-pagina .logo a {
+    font-family: raleway;
+    font-size: 26px;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+#pie-pagina .ubicacion p {
+    color: #fff;
+    font-size: 14px;
+    font-family: roboto;
+    text-align: left;
+}
+
+#pie-pagina .contenedor .final .contacto .email {
+    margin-bottom: 9px;
+}
+
+#pie-pagina .contenedor .texto {
+    display: block;
+    font-family: roboto;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#pie-pagina .contenedor .redes {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+}
+
+#pie-pagina .contenedor .redes .icon-flex {
+    display: flex;
+}
+
+#pie-pagina .redes .icons .icon {
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#pie-pagina .redes .icons:not(:last-child) {
+    margin-right: 10px;
+}
+
+#pie-pagina .redes .icons:hover > * {
+    background: #2196F3;
+}
+
+#pie-pagina .redes .icons .icon:hover * {
+    fill: #fff;
+}
+
+/*Footer*/
