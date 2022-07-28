@@ -257,6 +257,22 @@ main {
     margin-top: 16px;
     margin-right: 0px;
     margin-bottom: 30px;
+    display: flex;
+}
+
+#equipo .contenedor .colegas .icons .border-icons {
+    margin-right: 10px;
+}
+
+#equipo .contenedor .colegas .icons .border-icons:first-of-type {
+    margin-left: 32px;
+}
+
+#equipo .contenedor .colegas .icons .border-icons:hover {
+    background: #2196F3;
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
 }
 
 #equipo .contenedor .colegas .icons .icon {
@@ -265,10 +281,6 @@ main {
 
 #equipo .contenedor .colegas .icons .icon:hover * {
     fill: #fff;
-}
-
-#equipo .contenedor .colegas .icons .icon:hover {
-    background-color: #2196F3;
 }
 
 /*equipo ends*/
@@ -380,18 +392,23 @@ main {
     display: flex;
 }
 
-#pie-pagina .redes .icons .icon {
-    padding: 14px;
-    background: rgba(255, 255, 255, 0.1);
+#pie-pagina .contenedor .redes .icon-flex .icons  {
     border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+}
+
+#pie-pagina .redes .icons .icon {
     cursor: pointer;
+    padding: 12px;
 }
 
 #pie-pagina .redes .icons:not(:last-child) {
     margin-right: 10px;
 }
 
-#pie-pagina .redes .icons:hover * {
+#pie-pagina .redes .icon-flex .icons:hover {
     background-color: #2196F3;
 }
 
