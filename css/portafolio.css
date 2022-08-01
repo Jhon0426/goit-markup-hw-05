@@ -143,9 +143,38 @@ main {
     margin-left: px;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
+    position: relative;
 }
 
-#imagenes .productos h3, p {
+#imagenes .productos .descripcion {
+    width: 370px;
+    height: 294px;
+}
+
+#imagenes .productos .descripcion .text-block {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+}
+
+#imagenes .productos .descripcion .text-block:hover {
+    background: rgba(33, 150, 243, 0.9);
+}
+
+#imagenes .productos .descripcion .text {
+    position: absolute;
+    font-family: roboto;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    text-align: left;
+    margin: 64px 24px;
+    color: #fff;
+}
+
+#imagenes .productos .content h3, p {
     text-align: center;
 }
 
@@ -222,18 +251,23 @@ main {
     display: flex;
 }
 
-#pie-pagina .redes .icons .icon {
-    padding: 14px;
+#pie-pagina .redes .icon-flex .icons {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 100%;
+    width: 44px;
+    height: 44px;
+}
+
+#pie-pagina .redes .icons .icon {
     cursor: pointer;
+    padding: 12px;
 }
 
 #pie-pagina .redes .icons:not(:last-child) {
     margin-right: 10px;
 }
 
-#pie-pagina .redes .icons:hover > * {
+#pie-pagina .redes .icon-flex .icons:hover {
     background: #2196F3;
 }
 
